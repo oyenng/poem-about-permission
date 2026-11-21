@@ -1,3 +1,11 @@
+"""Permission Slip — a poem about agency, for make.fun.
+
+Writes one short poem to /output/entry.txt (263 Unicode code points,
+pure ASCII, no trailing newline) and verifies it against the
+competition gate: valid UTF-8, 1-280 code points, not whitespace only.
+Standard library only; runs fully offline and deterministically.
+"""
+
 import sys
 from pathlib import Path
 
